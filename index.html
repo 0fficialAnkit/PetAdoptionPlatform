@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption Platform</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -9,77 +9,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div id="loginPage" class="row">
-            <div class="col-md-6 text-center animal-images">
-                <h1 class="display-4">Adopt a Friend!</h1>
-                <img src="https://via.placeholder.com/500x300?text=Animal+Image" class="img-fluid" alt="Animal">
-                <p class="lead">Find your perfect pet today!</p>
-            </div>
-            <div class="col-md-6">
-                <div class="login-container mt-5">
-                    <h2 class="mb-4">Login</h2>
-                    <form id="loginForm">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Login</button>
-                    </form>
+    <div class="container text-center my-5">
+        <h1 class="display-4 animate__animated animate__fadeInDown">Welcome to the Pet Adoption Platform!</h1>
+        <div class="login-container mt-4 animate__animated animate__fadeInUp">
+            <h2 class="mb-4">Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="username" placeholder="Enter Username" required>
                 </div>
-            </div>
+                <button type="submit" class="btn btn-primary btn-block">Login</button>  
+            </form>
         </div>
-
-        <div id="petSelectionPage" class="row" style="display: none;">
-            <div class="col-12 text-center">
-                <h1 class="display-4">Choose Your Pet</h1>
-                <div class="filters mt-4">
-                    <select id="petType" class="form-control mb-3">
-                        <option value="">Select Pet Type</option>
-                        <option value="Dog">Dog</option>
-                        <option value="Cat">Cat</option>
-                        <option value="Rabbit">Rabbit</option>
-                        <option value="Bird">Bird</option>
-                    </select>
-                    <select id="petGender" class="form-control mb-3">
-                        <option value="">Select Gender</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select>
-                    <select id="petColor" class="form-control mb-3">
-                        <option value="">Select Color</option>
-                        <option value="Brown">Brown</option>
-                        <option value="Black">Black</option>
-                        <option value="White">White</option>
-                        <option value="Golden">Golden</option>
-                    </select>
-                    <select id="petBreed" class="form-control mb-3">
-                        <option value="">Select Breed</option>
-                        <option value="Labrador">Labrador</option>
-                        <option value="Persian">Persian</option>
-                        <option value="Beagle">Beagle</option>
-                    </select>
-                    <select id="petAge" class="form-control mb-3">
-                        <option value="">Select Age</option>
-                        <option value="Puppy">Puppy</option>
-                        <option value="Adult">Adult</option>
-                        <option value="Senior">Senior</option>
-                    </select>
-                    <div class="form-group">
-                        <input type="checkbox" id="vaccinated"> Vaccinated
-                        <label for="vaccinated" class="ml-2">Yes</label>
-                    </div>
-                    <button class="btn btn-success btn-block" onclick="showAvailablePets()">Show Available Pets</button>
-                </div>
-            </div>
-            <div id="availablePets" class="col-12 mt-4" style="display: none;">
-                <h2 class="mb-4">Available Pets</h2>
-                <div id="petList" class="d-flex flex-wrap justify-content-center"></div>
-            </div>
+        <div id="dashboard" class="mt-5" style="display: none;">
+            <h2 id="dashboardTitle"></h2>
+            <div id="dashboardContent" class="mt-3"></div>
             <button class="btn btn-secondary mt-4" onclick="logout()">Logout</button>
         </div>
     </div>
-
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
