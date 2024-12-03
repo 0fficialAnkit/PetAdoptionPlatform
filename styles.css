@@ -1,10 +1,17 @@
 body {
-    background-color: #f6f8f9;
+    background-color: #f9f9f9;
     font-family: 'Arial', sans-serif;
 }
 
 h1, h2 {
-    color: #f0200e;
+    color: #ff6f61;
+}
+
+.animal-images {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
 }
 
 .login-container {
@@ -12,8 +19,6 @@ h1, h2 {
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 30px;
-    max-width: 400px;
-    margin: auto;
 }
 
 button {
@@ -24,20 +29,9 @@ button:hover {
     transform: scale(1.05);
 }
 
-#dashboard {
+.filters {
     background-color: #fff;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     padding: 20px;
-    max-width: 600px;
-    margin: auto;
-}
-
-.form-control {
-    border-radius: 5px;
-    padding: 10px;
-}
-
-.btn {
-    border-radius: 5px;
 }
