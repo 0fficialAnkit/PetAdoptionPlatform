@@ -35,8 +35,18 @@ Is the pet available for adoption? (true/false): true
 Pet added successfully.
 
 
+
+
+
+
+
 --------------------------------------------------------------------------------------------REVIEW 2-------------------------------------------------------------------------------------------------------------
 Login Instructions
+
+
+Please visit [ https://0fficialankit.github.io/PetAdoptionPlatform/ ] to see the hosted website of our project
+
+
 Navigate to the Login Page
 Open your browser and go to the website's login page at [Your Website URL].
 
