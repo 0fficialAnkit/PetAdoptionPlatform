@@ -45,7 +45,7 @@ Login Instructions
 
 
 Please visit [ https://0fficialankit.github.io/PetAdoptionPlatform/ ] to see the hosted website of our project
-
+Use "admin", "adopter", "shelter" keywords to login.
 
 Navigate to the Login Page
 Open your browser and go to the website's login page at [Your Website URL].
