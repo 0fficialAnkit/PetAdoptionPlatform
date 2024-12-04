@@ -44,14 +44,11 @@ Pet added successfully.
 Login Instructions
 
 
-Please visit [ https://0fficialankit.github.io/PetAdoptionPlatform/ ] to see the hosted website of our project
-Use "admin", "adopter", "shelter" keywords to login.
-
 Navigate to the Login Page
-Open your browser and go to the website's login page at [Your Website URL].
+Open your browser and go to the website's login page at [ https://0fficialankit.github.io/PetAdoptionPlatform/ ].
 
 Enter Your Credentials
-Each user type has specific credentials:
+Each user type has specific credentials:( "admin", "adopter", "shelter" )
 
 Admin: Use the admin credentials provided during setup.
 Shelter: Shelters must register their account or use the credentials provided after approval by the admin.
